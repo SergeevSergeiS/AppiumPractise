@@ -35,6 +35,7 @@ out/
 logs/
 target/
 src/test/resources/properties
+stc/test/java/ru/internet/sergeevss90/owner/LocalMobileInterface.java
 .classpath
 .project
 .settings/org.eclipse.buildship.core.prefs

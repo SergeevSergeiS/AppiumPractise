@@ -22,7 +22,7 @@ public class TestBase {
     @BeforeAll
     public static void setup() {
 
-        if (Objects.equals(deviceHost, "local")) {
+        if (deviceHost.equals("local")) {
             Configuration.browser = LocalMobileDriver.class.getName();
         } else {
             Configuration.browser = BrowserstackMobileDriver.class.getName();

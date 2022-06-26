@@ -34,6 +34,7 @@ bin/
 out/
 logs/
 target/
+src/test/resources/properties
 .classpath
 .project
 .settings/org.eclipse.buildship.core.prefs

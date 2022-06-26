@@ -34,7 +34,8 @@ public class SearchTests extends TestBase {
         });
         step("Verify page is correct", () -> {
             $(AppiumBy.id("org.wikipedia.alpha:id/page_list_item_title")).click();
-            $(AppiumBy.className("android.widget.TextView")).shouldHave(Condition.text("Russia"));
+            $(AppiumBy.id("org.wikipedia.alpha:id/pcs-edit-section-title-description"))
+                    .shouldHave(Condition.text("Country spanning Europe and Asia"));
         });
     }
 }

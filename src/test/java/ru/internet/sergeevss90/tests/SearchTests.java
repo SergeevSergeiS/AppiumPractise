@@ -1,7 +1,6 @@
 package ru.internet.sergeevss90.tests;
 
 import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
 import org.junit.jupiter.api.Test;
 
@@ -23,7 +22,7 @@ public class SearchTests extends TestBase {
     }
 
     @Test
-    void searchTest() {
+    void countryPageSearchTest() {
         back();
         step("Type search", () -> {
             $(AppiumBy.accessibilityId("Search Wikipedia")).click();

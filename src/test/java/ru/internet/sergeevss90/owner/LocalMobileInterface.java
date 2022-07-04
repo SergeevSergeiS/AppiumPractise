@@ -11,6 +11,7 @@ public interface LocalMobileInterface extends Config {
     @DefaultValue("Pixel 4 API 30")
     String deviceName();
 
+    @DefaultValue("11.0")
     String osVersion();
 
     @DefaultValue("Android")
